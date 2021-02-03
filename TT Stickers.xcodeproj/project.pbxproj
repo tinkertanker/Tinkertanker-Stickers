@@ -13,7 +13,33 @@
 		3209164125CA978400CD8165 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3209163F25CA978400CD8165 /* Main.storyboard */; };
 		3209164325CA978700CD8165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3209164225CA978700CD8165 /* Assets.xcassets */; };
 		3209164625CA978700CD8165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3209164425CA978700CD8165 /* LaunchScreen.storyboard */; };
+		3209166F25CA97F000CD8165 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3209166E25CA97F000CD8165 /* Stickers.xcassets */; };
+		3209167325CA97F100CD8165 /* StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3209166C25CA97EE00CD8165 /* StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3209167125CA97F100CD8165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3209162E25CA978400CD8165 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3209166B25CA97EE00CD8165;
+			remoteInfo = StickerPackExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3209166625CA97AC00CD8165 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3209167325CA97F100CD8165 /* StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3209163625CA978400CD8165 /* TT Stickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TT Stickers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +50,10 @@
 		3209164225CA978700CD8165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3209164525CA978700CD8165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3209164725CA978700CD8165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3209165525CA97A900CD8165 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		3209166C25CA97EE00CD8165 /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3209166E25CA97F000CD8165 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		3209167025CA97F100CD8165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +71,8 @@
 			isa = PBXGroup;
 			children = (
 				3209163825CA978400CD8165 /* TT Stickers */,
+				3209166D25CA97EE00CD8165 /* StickerPackExtension */,
+				3209165425CA97A900CD8165 /* Frameworks */,
 				3209163725CA978400CD8165 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				3209163625CA978400CD8165 /* TT Stickers.app */,
+				3209166C25CA97EE00CD8165 /* StickerPackExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +100,23 @@
 			path = "TT Stickers";
 			sourceTree = "<group>";
 		};
+		3209165425CA97A900CD8165 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3209165525CA97A900CD8165 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3209166D25CA97EE00CD8165 /* StickerPackExtension */ = {
+			isa = PBXGroup;
+			children = (
+				3209166E25CA97F000CD8165 /* Stickers.xcassets */,
+				3209167025CA97F100CD8165 /* Info.plist */,
+			);
+			path = StickerPackExtension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +127,32 @@
 				3209163225CA978400CD8165 /* Sources */,
 				3209163325CA978400CD8165 /* Frameworks */,
 				3209163425CA978400CD8165 /* Resources */,
+				3209166625CA97AC00CD8165 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3209167225CA97F100CD8165 /* PBXTargetDependency */,
 			);
 			name = "TT Stickers";
 			productName = "TT Stickers";
 			productReference = 3209163625CA978400CD8165 /* TT Stickers.app */;
 			productType = "com.apple.product-type.application";
+		};
+		3209166B25CA97EE00CD8165 /* StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3209167425CA97F100CD8165 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */;
+			buildPhases = (
+				3209166A25CA97EE00CD8165 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickerPackExtension;
+			productName = StickerPackExtension;
+			productReference = 3209166C25CA97EE00CD8165 /* StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,6 +164,9 @@
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
 					3209163525CA978400CD8165 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					3209166B25CA97EE00CD8165 = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
@@ -115,6 +185,7 @@
 			projectRoot = "";
 			targets = (
 				3209163525CA978400CD8165 /* TT Stickers */,
+				3209166B25CA97EE00CD8165 /* StickerPackExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +198,14 @@
 				3209164625CA978700CD8165 /* LaunchScreen.storyboard in Resources */,
 				3209164325CA978700CD8165 /* Assets.xcassets in Resources */,
 				3209164125CA978400CD8165 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3209166A25CA97EE00CD8165 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3209166F25CA97F000CD8165 /* Stickers.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +223,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3209167225CA97F100CD8165 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3209166B25CA97EE00CD8165 /* StickerPackExtension */;
+			targetProxy = 3209167125CA97F100CD8165 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3209163F25CA978400CD8165 /* Main.storyboard */ = {
@@ -284,6 +371,7 @@
 		3209164B25CA978700CD8165 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -293,7 +381,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "sg.tk.tinkertanker.TT-Stickers";
+				PRODUCT_BUNDLE_IDENTIFIER = sg.tk.tinkertanker.stickers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,6 +391,7 @@
 		3209164C25CA978700CD8165 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,9 +401,39 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "sg.tk.tinkertanker.TT-Stickers";
+				PRODUCT_BUNDLE_IDENTIFIER = sg.tk.tinkertanker.stickers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3209167525CA97F100CD8165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XL5JK4F896;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sg.tk.tinkertanker.stickers.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3209167625CA97F100CD8165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XL5JK4F896;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sg.tk.tinkertanker.stickers.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -336,6 +455,15 @@
 			buildConfigurations = (
 				3209164B25CA978700CD8165 /* Debug */,
 				3209164C25CA978700CD8165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3209167425CA97F100CD8165 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3209167525CA97F100CD8165 /* Debug */,
+				3209167625CA97F100CD8165 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

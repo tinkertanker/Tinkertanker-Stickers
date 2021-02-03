@@ -1,0 +1,62 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  },
+  "stickers" : [
+    {
+      "filename" : "crashed2.sticker"
+    },
+    {
+      "filename" : "ded.sticker"
+    },
+    {
+      "filename" : "depressed2.sticker"
+    },
+    {
+      "filename" : "facepalm.sticker"
+    },
+    {
+      "filename" : "fingerguns.sticker"
+    },
+    {
+      "filename" : "flailing2.sticker"
+    },
+    {
+      "filename" : "handraise.sticker"
+    },
+    {
+      "filename" : "heart.sticker"
+    },
+    {
+      "filename" : "intenseglare.sticker"
+    },
+    {
+      "filename" : "pls4.5.sticker"
+    },
+    {
+      "filename" : "right.sticker"
+    },
+    {
+      "filename" : "salute.sticker"
+    },
+    {
+      "filename" : "shock.sticker"
+    },
+    {
+      "filename" : "shrug2.sticker"
+    },
+    {
+      "filename" : "snooze.sticker"
+    },
+    {
+      "filename" : "wrong.sticker"
+    },
+    {
+      "filename" : "yay.sticker"
+    }
+  ]
+}
