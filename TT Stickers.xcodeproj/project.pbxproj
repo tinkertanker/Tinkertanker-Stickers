@@ -129,8 +129,6 @@
 		327C5E0325CAD1E1003062A4 /* YYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImage.h; sourceTree = "<group>"; };
 		327C5E4225CAD2F1003062A4 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
 		327C5E4825CAD325003062A4 /* WebPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebPManager.swift; sourceTree = "<group>"; };
-		327C5E5325CAE253003062A4 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "iMessage StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
-		327C5E6625CAE6DA003062A4 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "stickers StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
 		327C5E7225CAE8F4003062A4 /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		327C5E7425CAE8F7003062A4 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
 		327C5E7625CAE8F7003062A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -151,8 +149,6 @@
 		3209162D25CA978400CD8165 = {
 			isa = PBXGroup;
 			children = (
-				327C5E5325CAE253003062A4 /* Stickers.xcstickers */,
-				327C5E6625CAE6DA003062A4 /* Stickers.xcstickers */,
 				3209163825CA978400CD8165 /* TT Stickers */,
 				327C5E7325CAE8F4003062A4 /* StickerPackExtension */,
 				3209165425CA97A900CD8165 /* Frameworks */,
