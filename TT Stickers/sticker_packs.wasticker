@@ -1,0 +1,99 @@
+{
+    "ios_app_store_link" : "",
+    "android_play_store_link" : "",
+    "sticker_packs" : [
+    {
+        "identifier": "sg.tk.tinkertanker.stickers",
+        "name": "TT Stickers",
+        "publisher": "Tinkertanker",
+        "tray_image_file" : "tray.png",
+        "publisher_website" : "",
+        "privacy_policy_website" : "",
+        "license_agreement_website" : "",
+        "stickers": [
+        {
+            "image_file": "crashed.png",
+            "emojis": ["💥","💻"]
+        },
+        {
+            "image_file": "ded.png",
+            "emojis": ["⚰️","🪦"]
+        },
+        {
+            "image_file": "depressed.png",
+            "emojis": ["😭","😔"]
+        },
+        {
+            "image_file": "facepalm.png",
+            "emojis": ["🤦‍♂️", "🤦‍♀️"]
+        },
+        {
+            "image_file": "falling.png",
+            "emojis": ["🤕","🍌"]
+        },
+        {
+            "image_file": "fingerguns.png",
+            "emojis": ["🔫","👈"]
+        },
+        {
+            "image_file": "flailing.png",
+            "emojis": ["‼️","⚠️"]
+        },
+        {
+            "image_file": "gasp.png",
+            "emojis": ["😱","😳"]
+        },
+        {
+            "image_file": "handraise.png",
+            "emojis": ["🙋‍♂️","🙌"]
+        },
+        {
+            "image_file": "heart.png",
+            "emojis": ["❤️","🥰"]
+        },
+        {
+            "image_file": "intenseglare.png",
+            "emojis": ["😡","😠"]
+        },
+        {
+            "image_file": "ok.png",
+            "emojis": ["👌","👍"]
+        },
+        {
+            "image_file": "pls.png",
+            "emojis": ["🥺","🙏"]
+        },
+        {
+            "image_file": "right.png",
+            "emojis": ["✅","👍"]
+        },
+        {
+            "image_file": "salute.png",
+            "emojis": ["🖖","👏"]
+        },
+        {
+            "image_file": "shock.png",
+            "emojis": ["‼️","😨"]
+        },
+        {
+            "image_file": "shrug.png",
+            "emojis": ["🤷‍♂️", "❓"]
+        },
+        {
+            "image_file": "snooze.png",
+            "emojis": ["😴","🛌"]
+        },
+        {
+            "image_file": "thumbsup.png",
+            "emojis": ["👍","✅"]
+        },
+        {
+            "image_file": "wrong.png",
+            "emojis": ["👎","❌"]
+        },
+        {
+            "image_file": "yay.png",
+            "emojis": ["🎉","🥳"]
+        }]
+    }]
+}

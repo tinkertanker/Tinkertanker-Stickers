@@ -8,55 +8,67 @@
   },
   "stickers" : [
     {
-      "filename" : "crashed2.sticker"
+      "filename" : "depressed2.sticker"
+    },
+    {
+      "filename" : "pls5.sticker"
+    },
+    {
+      "filename" : "ok.sticker"
     },
     {
       "filename" : "ded.sticker"
     },
     {
-      "filename" : "depressed2.sticker"
+      "filename" : "thumbsup.sticker"
     },
     {
-      "filename" : "facepalm.sticker"
-    },
-    {
-      "filename" : "fingerguns.sticker"
+      "filename" : "gasp.sticker"
     },
     {
       "filename" : "flailing2.sticker"
     },
     {
-      "filename" : "handraise.sticker"
-    },
-    {
       "filename" : "heart.sticker"
     },
     {
-      "filename" : "intenseglare.sticker"
-    },
-    {
-      "filename" : "pls4.5.sticker"
-    },
-    {
-      "filename" : "right.sticker"
-    },
-    {
-      "filename" : "salute.sticker"
+      "filename" : "intenseglare2.sticker"
     },
     {
       "filename" : "shock.sticker"
     },
     {
-      "filename" : "shrug2.sticker"
+      "filename" : "snooze.sticker"
     },
     {
-      "filename" : "snooze.sticker"
+      "filename" : "handraise4.sticker"
+    },
+    {
+      "filename" : "crashed2.sticker"
+    },
+    {
+      "filename" : "fingerguns.sticker"
+    },
+    {
+      "filename" : "salute.sticker"
+    },
+    {
+      "filename" : "falling.sticker"
     },
     {
       "filename" : "wrong.sticker"
     },
     {
       "filename" : "yay.sticker"
+    },
+    {
+      "filename" : "facepalm.sticker"
+    },
+    {
+      "filename" : "right.sticker"
+    },
+    {
+      "filename" : "shrug4.sticker"
     }
   ]
 }
